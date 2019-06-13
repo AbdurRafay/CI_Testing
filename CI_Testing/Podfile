@@ -1,0 +1,20 @@
+platform :ios, '9.0'
+
+target 'CI_Testing' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CI_Testing
+	pod 'Alamofire'
+
+  target 'CI_TestingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CI_TestingUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
